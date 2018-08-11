@@ -60,7 +60,11 @@
 
                 <small id="keysHelp"
                        class="form-text text-muted">
-                    This is not stored but is required. Separate with commas to include multiple keys.
+                    Separate with commas to include multiple keys. Your key(s) are not stored but are required, you can apply for
+                    <a href="https://data.bls.gov/registrationEngine/"
+                       target="_blank">
+                        one here
+                    </a>
                 </small>
             </div>
 
