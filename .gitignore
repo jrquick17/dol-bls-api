@@ -1,4 +1,6 @@
 .idea/
+tmp/
+vendor/
 
 config/*.ini
 !config/*.example.ini
