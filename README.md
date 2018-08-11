@@ -136,7 +136,6 @@ SOFTWARE.
 ## Upcoming
 
 * Generate documentation
-* Create demo
 * Add to packagist
 * Install in dol-bls-pull
 * Unit tests
