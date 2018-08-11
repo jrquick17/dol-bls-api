@@ -1,13 +1,13 @@
 <?php
-namespace Encounting\DolBls\Shared\DolBls;
+namespace Encounting\DolBls;
 
-use Encounting\DolBls\Shared\DolBls\Models\DolBlsLatestResults;
-use Encounting\DolBls\Shared\DolBls\Models\DolBlsPopularSeriesResults;
-use Encounting\DolBls\Shared\DolBls\Models\DolBlsResponse;
-use Encounting\DolBls\Shared\DolBls\Models\DolBlsResults;
-use Encounting\DolBls\Shared\DolBls\Models\DolBlsSeriesResults;
-use Encounting\DolBls\Shared\DolBls\Models\DolBlsSurveyResults;
-use Encounting\DolBls\Shared\DolBls\Models\DolBlsSurveysResults;
+use Encounting\DolBls\Models\DolBlsLatestResults;
+use Encounting\DolBls\Models\DolBlsPopularSeriesResults;
+use Encounting\DolBls\Models\DolBlsResponse;
+use Encounting\DolBls\Models\DolBlsResults;
+use Encounting\DolBls\Models\DolBlsSeriesResults;
+use Encounting\DolBls\Models\DolBlsSurveyResults;
+use Encounting\DolBls\Models\DolBlsSurveysResults;
 
 use SimpleXMLElement;
 

@@ -1,5 +1,5 @@
 <?php
-namespace Encounting\DolBls\Shared\DolBls\Models;
+namespace Encounting\DolBls\Models;
 /**
  * @property string allowsNetChange
  * @property string allowsPercentChange

@@ -1,5 +1,5 @@
 <?php
-namespace Encounting\DolBls\Shared\DolBls\Models;
+namespace Encounting\DolBls\Models;
 
 /**
  * @property DolBlsSurveyResults Results

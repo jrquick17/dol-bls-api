@@ -137,6 +137,6 @@ SOFTWARE.
 
 * Generate documentation
 * Create demo
-* Add to composer
+* Add to packagist
 * Install in dol-bls-pull
 * Unit tests
