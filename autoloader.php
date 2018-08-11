@@ -8,7 +8,7 @@ spl_autoload_register(
             return;
         }
 
-        $base_dir = __DIR__ . '/';
+        $base_dir = __DIR__ . '/src/';
 
         $relative_class = substr($class, $len);
 

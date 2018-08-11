@@ -11,6 +11,9 @@ use Encounting\DolBls\Shared\DolBls\Models\DolBlsSurveysResults;
 
 use SimpleXMLElement;
 
+/**
+ * I belong to a class
+ */
 class DolBlsApi {
     const BASE_URL = 'https://api.bls.gov/publicAPI/v2/';
 
