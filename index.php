@@ -63,9 +63,15 @@
                     Separate with commas to include multiple keys. Your key(s) are not stored but are required, you can apply for
                     <a href="https://data.bls.gov/registrationEngine/"
                        target="_blank">
-                        one here
+                        one here.
                     </a>
                 </small>
+
+                <div id="error-missing-key"
+                     class="invalid-feedback"
+                     style="display: none;">
+                    At least one API key is required.
+                </div>
             </div>
 
             <div id="accordion">
@@ -315,7 +321,15 @@
         }
 
         function validate() {
-            return $('#keys').val().length > 0;
+            $hasKey = $('#keys').val().length > 0;
+
+            if (!$hasKey) {
+                $('#error-missing-key').show();
+            } else {
+                $('#error-missing-key').hide();
+            }
+
+            return $hasKey;
         }
 
         $('#request-button').click(
