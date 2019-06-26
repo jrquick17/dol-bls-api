@@ -1,9 +1,11 @@
-## Synopsis
+## About
 
 Basic wrapper for collecting statistics from the Department of Labor: Bureau of Labor Statistics. 
 [See a demo here](https://www.dol-bls-api.jrquick.com)
 
 > Apply for a developer key @ https://data.bls.gov/registrationEngine/
+
+* Visit [my website](https://jrquick.com) for me cool stuff!
 
 ## Code Example
 
